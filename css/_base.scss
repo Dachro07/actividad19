@@ -1,0 +1,17 @@
+//VARIABLES
+
+$colorBlanco :#FFFFFF;
+$colorRojo: #FF0400;
+
+//MIXIN
+
+@mixin mediaquery ($ancho){
+
+    @media screen and (max-width: #{$ancho}) {
+
+        @content;
+        
+    }
+}
+
+
